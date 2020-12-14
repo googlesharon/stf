@@ -743,7 +743,7 @@
   - name: Brand Name
     title: Brand Name
     type: field_filter
-    default_value: Calvin Klein
+    default_value: ''
     allow_multiple_values: true
     required: false
     ui_config:
