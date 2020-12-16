@@ -22,7 +22,7 @@ explore: order_items {
     user_attribute: brand
   }
 
-  sql_always_where: {{ _user_attributes['id'] }} = {{ _user_attributes['id'] }};;
+  # sql_always_where: {{ _user_attributes['id'] }} = {{ _user_attributes['id'] }};;
 
   join: order_facts {
     type: left_outer
@@ -80,7 +80,7 @@ explore: events {
     user_attribute: brand
   }
 
-  sql_always_where: {{ _user_attributes['id'] }} = {{ _user_attributes['id'] }};;
+  # sql_always_where: {{ _user_attributes['id'] }} = {{ _user_attributes['id'] }};;
 
   join: sessions {
     type: left_outer
@@ -132,7 +132,7 @@ explore: sessions {
     user_attribute: brand
   }
 
-  sql_always_where: {{ _user_attributes['id'] }} = {{ _user_attributes['id'] }};;
+  # sql_always_where: {{ _user_attributes['id'] }} = {{ _user_attributes['id'] }};;
 
   join: events {
     type: left_outer
